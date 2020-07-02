@@ -11,10 +11,10 @@ spring:
     name: microservicecloud-config-dept-client
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    driver-class-name: org.gjt.mm.mysql.Driver
-    url: jdbc:mysql://localhost:3306/cloudDB01
-    username: root
-    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/cloudDB01
+    username: jerry
+    password: 1qa2ws#ED
     dbcp2:
       min-idle: 5
       initial-size: 5
